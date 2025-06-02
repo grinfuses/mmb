@@ -19,8 +19,8 @@ Herramienta para analizar y mejorar la calidad de los metadatos de las APIs del 
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/madrid-metadata-booster.git
-cd madrid-metadata-booster
+git clone git@github.com:grinfuses/mmb.git
+cd mmb
 ```
 
 2. Crear y activar un entorno virtual:
@@ -55,7 +55,7 @@ Luego abre http://localhost:8000/api_catalog.html en tu navegador.
 ## Estructura del Proyecto
 
 ```
-madrid-metadata-booster/
+mmb/
 ├── README.md
 ├── requirements.txt
 ├── generate_api_report.py
@@ -84,6 +84,6 @@ Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](L
 
 ## Contacto
 
-Tu Nombre - [@tutwitter](https://twitter.com/tutwitter)
+Javier Naranjo - [@grinfuses](https://github.com/grinfuses)
 
-Link del Proyecto: [https://github.com/tu-usuario/madrid-metadata-booster](https://github.com/tu-usuario/madrid-metadata-booster)
+Link del Proyecto: [https://github.com/grinfuses/mmb](https://github.com/grinfuses/mmb)
