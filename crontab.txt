@@ -1,0 +1,5 @@
+# Ejecutar el análisis el primer día de cada mes a las 2:00 AM
+0 2 1 * * cd /ruta/completa/a/madrid_metadata_booster && ./run.sh >> metadata_booster.log 2>&1
+
+# Ejecutar limpieza de archivos antiguos el primer día de cada mes a las 3:00 AM
+0 3 1 * * find /ruta/completa/a/madrid_metadata_booster/reports -name "report_*.zip" -mtime +180 -delete 
